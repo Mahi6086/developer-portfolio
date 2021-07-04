@@ -3,6 +3,11 @@ body {
     margin: 0;
 }
 
+section {
+    display: flex;
+    margin-bottom: 150PX;
+}
+
 h1 {
     font-size: 50px;
     ;
@@ -12,11 +17,7 @@ h1 {
     color: orange;
 }
 
-section {
-    display: flex;
-}
-
-p {
+.part1 {
     text-align: justify;
 }
 
@@ -45,4 +46,19 @@ p {
 .top-banner {
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+}
+
+.bottom-banner {
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.next-part {
+    width: 50%;
+    padding-left: 5%;
+}
+
+.next-part img {
+    width: 80%;
 }
