@@ -3,14 +3,13 @@ body {
     margin: 0;
 }
 
-section {
+.container {
     display: flex;
-    margin-bottom: 150PX;
+    margin-bottom: 100PX;
 }
 
 h1 {
     font-size: 50px;
-    ;
 }
 
 .note {
@@ -40,7 +39,32 @@ h1 {
 }
 
 .half-part img {
-    width: 80%;
+    width: 60%;
+}
+
+.middle-part img {
+    padding-left: 5%;
+    width: 70%;
+}
+
+.middle-part {
+    width: 50%;
+    padding-left: 5%;
+}
+
+.last-part {
+    height: 400px;
+    width: 40%;
+    margin-left: 4%;
+    margin-right: 4%;
+    padding-left: 25px;
+    padding-right: 20px;
+    border-radius: 15px;
+    box-shadow: 10px 10px 40px gray;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
 }
 
 .top-banner {
@@ -52,13 +76,35 @@ h1 {
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+    padding-right: 7%;
 }
 
-.next-part {
-    width: 50%;
-    padding-left: 5%;
+.experience-area {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
 }
 
-.next-part img {
-    width: 80%;
+#L-web {
+    border-left: 7px solid;
+    border-image: linear-gradient(navy, cyan);
+    border-image-slice: 1;
+}
+
+#B-web {
+    border-left: 7px solid;
+    border-image: linear-gradient(red, lightsalmon);
+    border-image-slice: 1;
+}
+
+footer p {
+    text-align: center;
+}
+
+h2 {
+    font-size: 35px;
+}
+
+#ex-web {
+    margin-left: 2%;
 }
